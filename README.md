@@ -550,3 +550,81 @@ It is used to indicate a system crash, in which the operating system reaches a c
    System file corruption due to improper shutdowns, malware, or failed updates
 4. Overheating or Power issues: <br>
    Inadequate cooling or power supply malfunctions
+
+# 01/07/2025
+
+## System Crash Analysis:
+
+After a BSOD, Windows creates a **dump file** that records what happened before the crash.
+
+### Tools for Analysis:
+1. **event Viewer:** <br>
+   Windows tool to check detailed system and crash logs.
+2. **WinDbg:** <br>
+   Microsoft Debugging Tool for analyzing dump files.
+
+### BIOS/UEFI Settings and POST Errors:
+
+| BIOS                       | UEFI                                   |
+| -------------------------- | -------------------------------------- |
+| Basic Input/Output System  | Unified Extensible Firmware Interface  |
+| Older firmware standard    | Modern replacement for BIOS            |
+| Keyboard-only navigation   | Supports mouse and GUI                 |
+| Stored in ROM chip         | stored in flash memory                 |
+
+BIOS/UEFI is responsible for initializing hardware components before the OS loads.
+
+
+**What is POST?:** <br>
+POST (Power-On Self Test) is a diagnostic process that occurs when the computer is powered on. It checks for:
+
+* RAM functionality
+* CPU status
+* Keyboard presence
+* Display detection
+* Hard disk and drives
+
+*Common POST Errors:*
+
+| Beep Code / Mesaage    | Meaning                                                     |
+| ---------------------- | ----------------------------------------------------------- |
+| 1 Long, 2 Short beeps  | Graphics card issue                                         |
+| Continuous Beeps       | RAM failure                                                 |
+| No beep, No Display    | Power or motherboard issue                                  |
+| "CMOS Checksum Error"  | Corrupted BIOS settings (usually fixed by resetting CMOS)   |
+
+### Accessing BIOS/UEFI Settings
+
+* Press **F2**, **F10**, **DEL**, or **ESC** continuously during startup (key depends on manufacturer).
+* From here, you can:
+
+  * Change boot order
+  * Enable/Disable hardware components
+  * View system info
+  * Reset settings to default (if needed)
+
+
+---
+### Other small concepts:
+
+**Wizard-Based Installation:** <br>
+GUI-based installation with no need to type commands.
+
+**Antivirus Installation:** <br>
+Essential for protection against viruses, malware, and spyware.
+
+**Help Shortcut:** <br>
+Press **F1** to open help tool in Windows.
+
+## IP Address:
+An IP address (Internet Protocol address) is a unique numerical label assigned to each drive connected to a computer network that uses the Internet Protocol for communication. It acts as an identifier for the device on the network.
+
+## Command Prompt:
+*1. ipconfig:*
+   ipconfig is a Command Prompt command used to display and manage the IP address and network settings of a computer in a Windows operating system.
+
+*2. ping:*
+    The ping command is used to test the connectivity between your computer and another device or server over a network.
+
+*3. tracert:*
+    The tracert (Trace Route) command is used to track the path that data takes from your computer to a destination across a network.
