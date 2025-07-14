@@ -1,4 +1,5 @@
-# 25/06/2025
+# Training Daily Report
+## 25/06/2025
 ## Linux over Windows
 ### Why to use Linux over Windows?
 
@@ -934,6 +935,122 @@ The nav tag is used to define a navigation menu in a webpage. It contains links 
 
 ![nav](https://github.com/user-attachments/assets/344b8d2b-adab-4681-84c7-19a10b87226f)
 
+# 11/07/2025
 
+# Git:
+Git is a distributed version control system used to track changes in code, collaborate with others and manage project history efficiently.
+
+# Difference between Git and GitHub:
+| Feature                  | Git                                       | Git Hub                                                  |
+| ------------------------ | ----------------------------------------- | -------------------------------------------------------- |
+| Type                     | Version Control System                    | Hosting Platform                                         |
+| Purpose                  | Tracks and manages code changes locally   | Stores git repositories online for collaboration         |
+| Works without Internet   | Yes (locally on your computer)            | No (requires internet to access)                         |
+| Usage                    | Used via command line or Git Tools        | Used via website or Git Hub desktop                      |
+| Storage                  | Local Machine                             | Cloud (online service)                                   |
+| Example                  | Git commit, git push, git pull            | GitHub repositories like https://github.com/user/project |
+
+## ***What is Version Control System?***
+A version control system is software that records changes to files and allows you to revert back to specific version when needed.
+***Key Features:***
+1. Track changes to files over time.
+2. Allows multiple people to collaborate.
+3. Manitains a history of edit and version.
+4. Help revert to previous versions if needed.
+
+# Types of VCS:
+1. ***Local VCS:*** Track changes on a single system.
+2. ***Centralized VCS:*** Single Central Server.
+3. ***Distributed VCS:*** Every user has full copy of history (eg. Git).
+
+# Git Architecture:
+1. ***Repository (Repo):*** The repository in Git is the database where all versions of your project are stored. It contains all the information about the project history, branches, tags etc.
+2. ***Working Tree (Directory):*** The current directory where you're actively working changes.
+3. ***Index (Staging area):*** Temporary area where changes are added before committing.
+
+# What is Git/ Git lab / Git Hub?
+- ***Git:*** Version Control System
+- ***Git Lab / Git Hub:*** Source code mangement system / platform used to host git repositories and to share it with others enabling collaborations.
+
+# Git vs Github:
+- ***Git:*** The engine that tracks and manages changes to your code.
+- ***Github:*** The cloud platform where Git-powered projects are stored and collaborated on.
+
+# Stages of a git file:
+Modified, Staged and Committed.
+- Modified means that you have changed the file but have not committed it to your database yet.
+- Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+- Committed means that the data is safely stored in your local database.
+
+# Download Git:
+- ***Windows:*** Download from https://git-scm.com
+- ***Linux (Debian/Ubuntu):*** sudo apt install git
+- ***macOS (Homebrew):*** brew install git
+
+# Setting up Git:
+- $ git --version
+- $ git config --global user.name "abc"
+- $ git config --global user.email abc@gmail.com
+- $ git config --list
+- $ git config -h (list of commands)
+- $ git config --help (git manual)
+
+![Git bash 1](https://github.com/user-attachments/assets/64fec254-0e27-4754-b0e1-ad23980dc3d3)
+
+# Creating a Repository:
+- $ mkdir gitlab (make a directory - repository)
+- $ cd gitlab
+- $ git init (to initialise git)
+- $ nano abc.txt
+- $ ls (to list items)
+- $ ls -a (to show hidden directory)
+- $ git status (to show on which branch are you)
+- $ git add . (sends file to staging area)
+- $ git commit -m "my initial commit" (sends file to local repo)
+- $ git log # view commit history
+
+![git bash 6](https://github.com/user-attachments/assets/ac0280df-f826-4fba-a826-319cd2cd9ef0)
+
+![git bash 5](https://github.com/user-attachments/assets/db1f6af2-e91b-40de-b09d-2fb4544c2bb5)
+
+# Cloning and Pushing:
+- $ git clone https://github.com/username/new.git
+- $ cd new
+- $ ls -la
+- $ nano index.py
+- $ git add index.py
+- $ git commit -m "version-1"
+- $ git status
+- $ git log
+- $ git pull origin main
+
+ ![git bash 2](https://github.com/user-attachments/assets/dda837a8-a9c1-4691-810d-e9d7cc7d4286)
+
+![git bash 4](https://github.com/user-attachments/assets/608dc394-fbc1-45ab-aef4-5f71c69a2b66)
+
+
+# Branch and Pull
+- $ git branch addition
+- $ git branch
+- $ git checkout addition
+- $ nano index.py
+- $ git status
+- $ git add -A
+- $ git commit -m "version-2"
+- $ git push -u origin addition
+- $ git branch -a
+- $ git pull
+- $ git checkout main
+- $ git pull origin main
+- $ git branch --merged
+- $ git branch merge addition
+- $ git push origin main
+- $ git branch --merged
+
+![git bash 3](https://github.com/user-attachments/assets/d023dfdf-860e-4efb-bf6c-f915edbd35f8)
+
+# Delete a branch:
+- $ git branch -d addition//delete branch
+- $ git branch -a
 
 
