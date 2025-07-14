@@ -903,3 +903,37 @@ Date, email, password,file, image, number, hidden, etc.
 It defines an invisible input field that is used to store data which is sent with the form but not visible to the user.
 
 # 10/07/2025
+
+## Header:
+The Header element in HTML is used to define the top section of a webpage or a section. It usually contains titles, logos, navigation menus, or introductory content.
+
+![header](https://github.com/user-attachments/assets/73ea62b6-89f9-45a8-8b9b-8818cb6a315e)
+
+##  Footer:
+The Footer element in HTMl represents the bottom section of a webpage or a section. It usually cintains copyright info, contact details, or closing remarks.
+
+![footer](https://github.com/user-attachments/assets/ee9a3d5b-3243-4164-b987-44d6bd0b7e78)
+
+## Section:
+The Section tag is used to define a separate block or section of content in a webpage. Each section usually has a heading and groups related content together.
+
+![section](https://github.com/user-attachments/assets/7597f07a-6f6c-4445-8a73-0b7d49779848)
+
+## Articles:
+The Article tag is used to define independent, self-contained content that can be shared or reused, like blog posts, news articles, or forum posts.
+
+![article](https://github.com/user-attachments/assets/f1e9f1d6-a799-4a19-abe5-e84a67fedea9)
+
+## Script:
+The Script tag is used to add JavaScript code to an HTMl page. It allows you to create dynamic, interactive behavior like alerts, form validation, animations etc.
+
+![script](https://github.com/user-attachments/assets/c42c8fc4-aea8-425a-a637-d991e1fbf34b)
+
+## Nav Tag:
+The nav tag is used to define a navigation menu in a webpage. It contains links that help users move to different parts of the site.
+
+![nav](https://github.com/user-attachments/assets/344b8d2b-adab-4681-84c7-19a10b87226f)
+
+
+
+
