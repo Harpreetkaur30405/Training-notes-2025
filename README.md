@@ -1,4 +1,4 @@
-## 25/06/2025
+# 25/06/2025
 ## Linux over Windows
 ### Why to use Linux over Windows?
 
@@ -49,7 +49,7 @@ Booting is the process of starting up or restarting a computer, which involves i
 - **Warm boot/ Soft boot:**
   This is when the operating system alone is restarted without turning it off.
 
-## 26/06/2025
+# 26/06/2025
 
 ## Introduction to Linux Shell and basic commands:
 ### Kernel:
@@ -222,7 +222,7 @@ Booting is the process of starting up or restarting a computer, which involves i
 
    ![whatis_solved](https://github.com/user-attachments/assets/be581476-fc20-4291-9885-02d620903830)
 
-   ## 27/06/2025
+   # 27/06/2025
 
    ## Permissions & Shell programming:
 ### File and directory permissions:
